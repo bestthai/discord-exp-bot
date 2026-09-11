@@ -2,10 +2,11 @@ module.exports = {
 
     // ======= Chat Boost ======
 
+    // Assuming 0.5 message per minute
     CommonChatMult: {
         name: "Vial of Stone Carving",
         description: "Increase EXP from each message by **20%** for 1 hour",
-        cost: 300,
+        cost: 50, // 50 mins of chat for profit
         duration: 60 * 60,
         type: "chatMult",
         multiplier: 1.2,
@@ -14,7 +15,7 @@ module.exports = {
     UncommonChatMult: {
         name: "Flask of Hieroglyph",
         description: "Increase EXP from each message by **35%** for 1 hour",
-        cost: 500, 
+        cost: 80, // 45.7 mins of chat for profit
         duration: 60 * 60,
         type: "chatMult",
         multiplier: 1.35,
@@ -23,7 +24,7 @@ module.exports = {
     RareChatMult: {
         name: "Tonic of Oracle Ink",
         description: "Increase EXP from each message by **60%** for 1 hour",
-        cost: 800, 
+        cost: 130, // 43.3 mins of chat for profit
         duration: 60 * 60,
         type: "chatMult",
         multiplier: 1.6,
@@ -32,7 +33,7 @@ module.exports = {
     AdvanceChatMult: {
         name: "Elixir of Divine Verses",
         description: "Increase EXP from each message by **100%** for 1 hour",
-        cost: 1250, 
+        cost: 200, // 40 mins of chat for profit
         duration: 60 * 60,
         type: "chatMult",
         multiplier: 2.0,
@@ -41,7 +42,7 @@ module.exports = {
     LegendaryChatMult: {
         name: "Chalice of Celestial Script",
         description: "Increase EXP from each message by **150%** for 1 hour",
-        cost: 2000, 
+        cost: 300, // 40 mins of chat for profit
         duration: 60 * 60,
         type: "chatMult",
         multiplier: 2.5,
@@ -55,7 +56,7 @@ module.exports = {
     CommonVoiceMult: {
         name: "Vial of Whispers", 
         description: "Increase EXP from Voice Channel by **20%** for 1 hour",
-        cost: 250, // 14 mins in VC for profit
+        cost: 150, // 50 mins in VC for profit
         duration: 60 * 60,
         type: "voiceMult",
         multiplier: 1.2,
@@ -64,7 +65,7 @@ module.exports = {
     UncommonVoiceMult: {
         name: "Flask of Chanting Winds",
         description: "Increase EXP from Voice Channel by **35%** for 1 hour",
-        cost: 400, // 20 mins in VC for profit
+        cost: 250, // 47.6 mins in VC for profit
         duration: 60 * 60,
         type: "voiceMult",
         multiplier: 1.35,
@@ -73,7 +74,7 @@ module.exports = {
     RareVoiceMult: {
         name: "Tonic of Echoing Temples", 
         description: "Increase EXP from Voice Channel by **60%** for 1 hour",
-        cost: 600, // 25 mins in VC for profit
+        cost: 400, // 44.4 mins in VC for profit
         duration: 60 * 60,
         type: "voiceMult",
         multiplier: 1.6,
@@ -82,7 +83,7 @@ module.exports = {
     AdvanceVoiceMult: {
         name: "Elixir of Seraphic Voices", 
         description: "Increase EXP from Voice Channel by **100%** for 1 hour",
-        cost: 900, // 30 mins in VC for profit
+        cost: 600, // 40 mins in VC for profit
         duration: 60 * 60,
         type: "voiceMult",
         multiplier: 2.0,
@@ -91,7 +92,7 @@ module.exports = {
     LegendaryVoiceMult: {
         name: "Chalice of the Goddess's Hymn", 
         description: "Increase EXP from Voice Channel by **150%** for 1 hour",
-        cost: 1250, // 33 mins in VC for profit
+        cost: 900, // 40 mins in VC for profit
         duration: 60 * 60,
         type: "voiceMult",
         multiplier: 2.5,
