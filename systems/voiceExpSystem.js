@@ -10,7 +10,7 @@ const EXP_GAIN = {
     screenShare: 20,
 };
 
-const botRoleId = '868489544184504370';
+const botRoleId = '1145363441524166758'; // Matchbox bot
 
 function isActive(member) {
     const vs = member.voice;

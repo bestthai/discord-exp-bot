@@ -83,7 +83,7 @@ function giveDailyExp(lastClaim) {
             newStreak = streakRow.dailyStreak + 1;
           }
 
-          const multiplier = Math.min(1 + (newStreak - 1) * 0.1, 3.0); // Max 3x
+          const multiplier = Math.min(1 + (newStreak - 1) * 0.1, 10.0); // Max 10x
           const totalExpEarned = Math.floor(dailyExp * multiplier);
 
           const successEmbed = new EmbedBuilder()
